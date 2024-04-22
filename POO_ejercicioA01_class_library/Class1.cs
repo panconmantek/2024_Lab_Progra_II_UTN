@@ -16,25 +16,40 @@ namespace POO_ejercicioA01_class_library
         public string ObtenerMaximosKmRecorridos(int diaDeLaSemana)
         {
             string nombre = string.Empty;
-            double maximoRecorrido = double.MaxValue;
+            double maximoRecorrido = 0;
 
             for (int i = 0; i < this.conductores.Length; i++)
             {
                 Conductor conductorActual = this.conductores[i];
-                double kilometrosPorDia = conductorActual.ObtenerKilometrosPorDia(diaDeLaSemana - 1);
-                if (maximoRecorrido < kilometrosPorDia)
+                double kilometrosPorDia = conductorActual.ObtenerKilometrosPorDia(diaDeLaSemana);
+                if (kilometrosPorDia > maximoRecorrido)
                 {
                     nombre = conductorActual.ObtenerNombreDelConductor();
+                    maximoRecorrido = kilometrosPorDia;
                 }
             }
 
             return nombre;
         }
 
-        //public double ObtenerConductorConMayorRecorrido(int diaDeLaSemana)
-        //{
+        public string ObtenerConductorConMayorRecorrido()
+        {
+            string nombre = string.Empty;
+            double maximoRecorridoTotal = 0;
 
-        //}
+            foreach (var conductor in this.conductores)
+            {
+                double totalSemanalDelConductor = conductor.ObtenerTotalKmPorSemana();
+                if(maximoRecorridoTotal < totalSemanalDelConductor)
+                {
+                    nombre = conductor.ObtenerNombreDelConductor();
+                    maximoRecorridoTotal= totalSemanalDelConductor;
+                }
+
+            }
+
+            return nombre;
+        }
     }
 
     public class Conductor
@@ -56,6 +71,18 @@ namespace POO_ejercicioA01_class_library
         public double ObtenerKilometrosPorDia(int diaDeLaSemana)
         {
             return this.kilometrosPorDia[diaDeLaSemana];
+        }
+
+        public double ObtenerTotalKmPorSemana()
+        {
+            double total = 0;
+
+            foreach (var kmDia in this.kilometrosPorDia)
+            {
+                total += kmDia;
+            }
+
+            return total;
         }
     }
 }

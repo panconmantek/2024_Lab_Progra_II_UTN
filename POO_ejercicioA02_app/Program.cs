@@ -1,5 +1,6 @@
 ﻿namespace POO_ejercicioA02_app;
 using POO_ejercicioA02_class_library;
+using System;
 
 internal class Program
 {
@@ -20,5 +21,13 @@ internal class Program
         Mascota mascota4 = new Mascota("Cleo", "Gato", new DateTime(2022, 3, 20), new string[] { });
         Cliente cliente3 = new Cliente("Marcelo", "Coelho", "Ruta 87", "+541178966003", new Mascota[] { mascota3, mascota4 });
         Console.WriteLine(cliente3.GetInfo());
+
+        // Plus - Añadir vacunas nueva a una mascota && Añadir mascotas nuevas a un Cliente
+        Console.WriteLine("-------Bonus-------");
+        mascota1.AgregarVacuna("Antirrábica");
+        mascota1.AgregarVacuna("Tetravalente");
+        Mascota mascota5 = new Mascota("Filipo", "Gato", new DateTime(2023, 1, 15), new string[] { });
+        cliente1.AgregarMascota(mascota5);
+        Console.WriteLine(cliente1.GetInfo());
     }
 }

@@ -19,6 +19,15 @@ namespace POO_ejercicioA02_class_library
             this.mascotas = mascotas;
         }
 
+        public void AgregarMascota(Mascota mascota)
+        {
+            int newLength = this.mascotas.Length + 1;
+            Mascota[] mascotasActualizadas = new Mascota[newLength];
+            Array.Copy(this.mascotas, mascotasActualizadas, Math.Min(this.mascotas.Length, mascotasActualizadas.Length));
+            mascotasActualizadas[mascotasActualizadas.Length - 1] = mascota;
+            this.mascotas = mascotasActualizadas;
+        }
+
         public string GetInfo()
         {
             StringBuilder sb = new StringBuilder();
@@ -36,6 +45,8 @@ namespace POO_ejercicioA02_class_library
                     sb.AppendLine(mascota.GetInfo());
                 }
             }
+
+            sb.AppendLine("-----------------------------------");
 
             return sb.ToString();
         }
@@ -56,6 +67,18 @@ namespace POO_ejercicioA02_class_library
             this.vacunas = vacunas;
         }
 
+        public void AgregarVacuna(string vacuna)
+        {
+            if (vacuna != null)
+            {
+                int newLength = this.vacunas.Length + 1;
+                string[] vacunasActualizadas = new string[newLength];
+                Array.Copy(this.vacunas, vacunasActualizadas, Math.Min(this.vacunas.Length, vacunasActualizadas.Length));
+                vacunasActualizadas[vacunasActualizadas.Length - 1] = vacuna;
+                this.vacunas = vacunasActualizadas;
+            }
+        }
+
         public string GetInfo()
         {
             StringBuilder sb = new StringBuilder();
@@ -72,15 +95,13 @@ namespace POO_ejercicioA02_class_library
                     infoVacunas += $" {vacuna},";
                 }
 
-                infoVacunas = infoVacunas.TrimEnd(',') + "\n";
+                infoVacunas = infoVacunas.TrimEnd(',');
                 sb.AppendLine($"Vacunas: {infoVacunas}");
             }
             else
             {
                 sb.AppendLine($"Vacunas: No tiene");
             }
-
-            sb.AppendLine("-----------------------------------");
 
             return sb.ToString();
         }

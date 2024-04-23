@@ -46,7 +46,7 @@ namespace sobrecarga_ejercicioC02_class_library
             // Retornará true si las marcas y códigos de barra son iguales, false caso contrario.
             if (!(producto1 is null || producto2 is null))
             {
-                return (producto1.marca == producto2.marca && producto1.codigoDeBarra == producto2.codigoDeBarra);
+                return (producto1.GetMarca() == producto2.GetMarca() && producto1.codigoDeBarra == producto2.codigoDeBarra);
             }
             return false;
         }
@@ -113,9 +113,12 @@ namespace sobrecarga_ejercicioC02_class_library
             // Retornará true si es que el producto ya se encuentra en el estante, false caso contrario.
             for (int i = 0; i < estante.productos.Length; i++)
             {
-                if (estante.productos[i] == producto)
+                if (estante.productos[i] is not null)
                 {
-                    return true;
+                    if (estante.productos[i] == producto)
+                    {
+                        return true;
+                    }
                 }
             }
             return false;

@@ -29,5 +29,7 @@ internal class Program
         Mascota mascota5 = new Mascota("Filipo", "Gato", new DateTime(2023, 1, 15), new string[] { });
         cliente1.AgregarMascota(mascota5);
         Console.WriteLine(cliente1.GetInfo());
+
+        
     }
 }

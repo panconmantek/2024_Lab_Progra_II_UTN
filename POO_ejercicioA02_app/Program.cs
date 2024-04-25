@@ -1,5 +1,6 @@
 ﻿namespace POO_ejercicioA02_app;
-using POO_ejercicioA02_class_library;
+using POO_ejercicioA02_Cliente;
+using POO_ejercicioA02_Mascota;
 using System;
 
 internal class Program

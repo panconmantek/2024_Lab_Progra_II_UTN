@@ -1,6 +1,7 @@
 ﻿using System.Runtime.CompilerServices;
+using POO_ejercicioA01_Conductor;
 
-namespace POO_ejercicioA01_class_library
+namespace POO_ejercicioA01_EmpresaDeTransporte
 {
     public class EmpresaDeTransporte
     {
@@ -52,37 +53,4 @@ namespace POO_ejercicioA01_class_library
         }
     }
 
-    public class Conductor
-    {
-        private string nombre;
-        private double[] kilometrosPorDia;
-
-        public Conductor(string nombre, double[] kilometrosPorDia)
-        {
-            this.nombre = nombre;
-            this.kilometrosPorDia = kilometrosPorDia;
-        }
-
-        public string ObtenerNombreDelConductor()
-        {
-            return this.nombre;
-        }
-
-        public double ObtenerKilometrosPorDia(int diaDeLaSemana)
-        {
-            return this.kilometrosPorDia[diaDeLaSemana];
-        }
-
-        public double ObtenerTotalKmPorSemana()
-        {
-            double total = 0;
-
-            foreach (var kmDia in this.kilometrosPorDia)
-            {
-                total += kmDia;
-            }
-
-            return total;
-        }
-    }
 }

@@ -3,29 +3,35 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "helloWorld", "helloWorld\helloWorld.csproj", "{8CC4F638-FA6E-441E-AF07-DE57A8B789E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hello_world", "helloWorld\hello_world.csproj", "{8CC4F638-FA6E-441E-AF07-DE57A8B789E0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "intro_ejercicioI01", "intro_ejercicioI01\intro_ejercicioI01.csproj", "{E91F363F-B8C9-463C-9880-6D36295D7E70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "INTRO_ejercicioI01_app", "intro_ejercicioI01\INTRO_ejercicioI01_app.csproj", "{E91F363F-B8C9-463C-9880-6D36295D7E70}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "intro_ejercicioI03", "intro_ejercicioI03\intro_ejercicioI03.csproj", "{41BF164C-CD53-4A62-98B0-755495110FE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "INTRO_ejercicioI03_app", "intro_ejercicioI03\INTRO_ejercicioI03_app.csproj", "{41BF164C-CD53-4A62-98B0-755495110FE2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "clasesymetodosestaticos_app_ejercicioI01", "clasesymetodosestaticos_app_ejercicioI01\clasesymetodosestaticos_app_ejercicioI01.csproj", "{7B59958F-AFF7-4E01-86D6-DB00D8C2557F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CLASES_METODOS_ESTATICOS_ejercicioI01_Rangos_app", "clasesymetodosestaticos_app_ejercicioI01\CLASES_METODOS_ESTATICOS_ejercicioI01_Rangos_app.csproj", "{7B59958F-AFF7-4E01-86D6-DB00D8C2557F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "clasesymetodosestaticos_classlibrary_ejercicioI01", "clasesymetodosestaticos_classlibrary_ejercicioI01\clasesymetodosestaticos_classlibrary_ejercicioI01.csproj", "{42FDDA75-5C71-45FF-BD13-796DA16CF703}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CLASES_METODOS_ESTATICOS__ejercicioI01_Validador", "clasesymetodosestaticos_classlibrary_ejercicioI01\CLASES_METODOS_ESTATICOS__ejercicioI01_Validador.csproj", "{42FDDA75-5C71-45FF-BD13-796DA16CF703}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POO_ejercicioA02_app", "POO_ejercicioA02_app\POO_ejercicioA02_app.csproj", "{E8C373D8-5497-4494-8126-940147B99552}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POO_ejercicioA02_Veterinaria_app", "POO_ejercicioA02_app\POO_ejercicioA02_Veterinaria_app.csproj", "{E8C373D8-5497-4494-8126-940147B99552}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POO_ejercicioA02_class_library", "POO_ejercicioA02_class_library\POO_ejercicioA02_class_library.csproj", "{1CDF544E-84E8-4347-B84F-C3A9E78C5E95}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POO_ejercicioA02_Cliente", "POO_ejercicioA02_class_library\POO_ejercicioA02_Cliente.csproj", "{1CDF544E-84E8-4347-B84F-C3A9E78C5E95}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POO_ejercicioA01_app", "POO_ejercicioA01_app\POO_ejercicioA01_app.csproj", "{F909BAB9-DF7D-4B54-969A-C13D59442EF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POO_ejercicioA01_SistemaDeAutoNavegacion_app", "POO_ejercicioA01_app\POO_ejercicioA01_SistemaDeAutoNavegacion_app.csproj", "{F909BAB9-DF7D-4B54-969A-C13D59442EF8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POO_ejercicioA01_class_library", "POO_ejercicioA01_class_library\POO_ejercicioA01_class_library.csproj", "{76FC9E09-5A9C-4B8C-9A1B-6B11DD428E58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POO_ejercicioA01_EmpresaDeTransporte", "POO_ejercicioA01_class_library\POO_ejercicioA01_EmpresaDeTransporte.csproj", "{76FC9E09-5A9C-4B8C-9A1B-6B11DD428E58}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sobrecarga_ejercicioC02_app", "sobrecarga_ejercicioC02_app\sobrecarga_ejercicioC02_app.csproj", "{23ECBE12-D7E5-47F5-8176-A355266E0D9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SOBRECARGA_ejercicioC02_Estanteria_app", "sobrecarga_ejercicioC02_app\SOBRECARGA_ejercicioC02_Estanteria_app.csproj", "{23ECBE12-D7E5-47F5-8176-A355266E0D9B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sobrecarga_ejercicioC02_class_library", "sobrecarga_ejercicioC02_class_library\sobrecarga_ejercicioC02_class_library.csproj", "{C9A8B363-1198-4DD9-BA4B-E567C5592554}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SOBRECARGA_ejercicioC02_Producto", "sobrecarga_ejercicioC02_class_library\SOBRECARGA_ejercicioC02_Producto.csproj", "{C9A8B363-1198-4DD9-BA4B-E567C5592554}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sobrecarga_ejercicioI01-class_library", "sobrecarga_ejercicioI01-class_library\sobrecarga_ejercicioI01-class_library.csproj", "{6A14CEB8-3EE1-4042-8AD3-309D5E7A0DE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SOBRECARGA_ejercicioI01_Sumador", "sobrecarga_ejercicioI01-class_library\SOBRECARGA_ejercicioI01_Sumador.csproj", "{6A14CEB8-3EE1-4042-8AD3-309D5E7A0DE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO_ejercicioA01_Conductor", "POO_ejercicioA01_Conductor\POO_ejercicioA01_Conductor.csproj", "{307B3AE6-E2DE-4A18-A094-6F6CE9B8B965}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO_ejercicioA02_Mascota", "POO_ejercicioA02_Mascota\POO_ejercicioA02_Mascota.csproj", "{13FE42B3-E5F1-4261-91FF-BCFE9B45A21A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOBRECARGA_ejercicioC02_Estante", "SOBRECARGA_ejercicioC02_Estante\SOBRECARGA_ejercicioC02_Estante.csproj", "{F1D93925-905F-4888-BB10-461C6118B85B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +87,18 @@ Global
 		{6A14CEB8-3EE1-4042-8AD3-309D5E7A0DE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A14CEB8-3EE1-4042-8AD3-309D5E7A0DE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A14CEB8-3EE1-4042-8AD3-309D5E7A0DE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{307B3AE6-E2DE-4A18-A094-6F6CE9B8B965}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{307B3AE6-E2DE-4A18-A094-6F6CE9B8B965}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{307B3AE6-E2DE-4A18-A094-6F6CE9B8B965}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{307B3AE6-E2DE-4A18-A094-6F6CE9B8B965}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13FE42B3-E5F1-4261-91FF-BCFE9B45A21A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13FE42B3-E5F1-4261-91FF-BCFE9B45A21A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13FE42B3-E5F1-4261-91FF-BCFE9B45A21A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13FE42B3-E5F1-4261-91FF-BCFE9B45A21A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1D93925-905F-4888-BB10-461C6118B85B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1D93925-905F-4888-BB10-461C6118B85B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1D93925-905F-4888-BB10-461C6118B85B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1D93925-905F-4888-BB10-461C6118B85B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

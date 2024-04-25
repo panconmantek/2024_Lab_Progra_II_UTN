@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\POO_ejercicioA02_class_library\POO_ejercicioA02_class_library.csproj" />
+    <ProjectReference Include="..\clasesymetodosestaticos_classlibrary_ejercicioI01\CLASES_METODOS_ESTATICOS__ejercicioI01_Validador.csproj" />
   </ItemGroup>
 
 </Project>

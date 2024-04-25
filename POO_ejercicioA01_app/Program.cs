@@ -1,5 +1,6 @@
 ﻿namespace POO_ejercicioA01_app;
-using POO_ejercicioA01_class_library;
+using POO_ejercicioA01_EmpresaDeTransporte;
+using POO_ejercicioA01_Conductor;
 
 internal class Program
 {

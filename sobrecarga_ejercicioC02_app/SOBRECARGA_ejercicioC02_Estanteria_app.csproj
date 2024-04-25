@@ -8,7 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\POO_ejercicioA01_class_library\POO_ejercicioA01_class_library.csproj" />
+    <ProjectReference Include="..\sobrecarga_ejercicioC02_class_library\SOBRECARGA_ejercicioC02_Producto.csproj" />
+    <ProjectReference Include="..\SOBRECARGA_ejercicioC02_Estante\SOBRECARGA_ejercicioC02_Estante.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,5 +1,6 @@
 ﻿namespace sobrecarga_ejercicioC02_app;
-using sobrecarga_ejercicioC02_class_library;
+using SOBRECARGA_ejercicioC02_Producto;
+using SOBRECARGA_ejercicioC02_Estante;
 
 internal class Program
 {

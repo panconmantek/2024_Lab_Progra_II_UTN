@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\POO_ejercicioC01_DirectorTecnico\POO_ejercicioC01_DirectorTecnico.csproj" />
+    <ProjectReference Include="..\POO_ejercicioC01_Equipo\POO_ejercicioC01_Equipo.csproj" />
+    <ProjectReference Include="..\POO_ejercicioC01_Jugador\POO_ejercicioC01_Jugador.csproj" />
+    <ProjectReference Include="..\POO_ejercicioC01_Persona\POO_ejercicioC01_Persona.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -33,25 +33,29 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POO_ejercicioA02_Mascota", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SOBRECARGA_ejercicioC02_Estante", "SOBRECARGA_ejercicioC02_Estante\SOBRECARGA_ejercicioC02_Estante.csproj", "{F1D93925-905F-4888-BB10-461C6118B85B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO_ejercicioI01_VehiculoTerrestre", "POO_ejercicioI01_VehiculoTerrestre\POO_ejercicioI01_VehiculoTerrestre.csproj", "{0B69B8F7-0C58-41C6-A97C-874B3BA1D7B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POO_ejercicioI01_VehiculoTerrestre", "POO_ejercicioI01_VehiculoTerrestre\POO_ejercicioI01_VehiculoTerrestre.csproj", "{0B69B8F7-0C58-41C6-A97C-874B3BA1D7B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO_ejercicioI01_Camion", "POO_ejercicioI01_Camion\POO_ejercicioI01_Camion.csproj", "{FBD622F7-479D-431D-869F-340A204E4B0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POO_ejercicioI01_Camion", "POO_ejercicioI01_Camion\POO_ejercicioI01_Camion.csproj", "{FBD622F7-479D-431D-869F-340A204E4B0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO_ejercicioI01_Automovil", "POO_ejercicioI01_Automovil\POO_ejercicioI01_Automovil.csproj", "{FA5A485E-2C07-4DB0-BC7B-5C07C020D674}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POO_ejercicioI01_Automovil", "POO_ejercicioI01_Automovil\POO_ejercicioI01_Automovil.csproj", "{FA5A485E-2C07-4DB0-BC7B-5C07C020D674}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO_ejercicioI01_Moto", "POO_ejercicioI01_Moto\POO_ejercicioI01_Moto.csproj", "{45A1F558-42BD-4286-8D0E-015DE2791067}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POO_ejercicioI01_Moto", "POO_ejercicioI01_Moto\POO_ejercicioI01_Moto.csproj", "{45A1F558-42BD-4286-8D0E-015DE2791067}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO_ejercicioI01_ElViajarEsUnPlacer_app", "POO_ejercicioI01_ElViajarEsUnPlacer_app\POO_ejercicioI01_ElViajarEsUnPlacer_app.csproj", "{E1829867-D8DD-4A7E-88BF-E432C914A486}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POO_ejercicioI01_ElViajarEsUnPlacer_app", "POO_ejercicioI01_ElViajarEsUnPlacer_app\POO_ejercicioI01_ElViajarEsUnPlacer_app.csproj", "{E1829867-D8DD-4A7E-88BF-E432C914A486}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO_ejercicioC01_Persona", "POO_ejercicioC01_Persona\POO_ejercicioC01_Persona.csproj", "{DC8404FD-B456-4D17-9483-820CED03E853}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POO_ejercicioC01_Persona", "POO_ejercicioC01_Persona\POO_ejercicioC01_Persona.csproj", "{DC8404FD-B456-4D17-9483-820CED03E853}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO_ejercicioC01_DirectorTecnico", "POO_ejercicioC01_DirectorTecnico\POO_ejercicioC01_DirectorTecnico.csproj", "{D934ABB3-A2F2-4EE1-97A0-BDB4DEE6ECE0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POO_ejercicioC01_DirectorTecnico", "POO_ejercicioC01_DirectorTecnico\POO_ejercicioC01_DirectorTecnico.csproj", "{D934ABB3-A2F2-4EE1-97A0-BDB4DEE6ECE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO_ejercicioC01_Jugador", "POO_ejercicioC01_Jugador\POO_ejercicioC01_Jugador.csproj", "{09C25D27-A433-411D-83D2-35052422C6B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POO_ejercicioC01_Jugador", "POO_ejercicioC01_Jugador\POO_ejercicioC01_Jugador.csproj", "{09C25D27-A433-411D-83D2-35052422C6B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO_ejercicioC01_HerenciaDeportiva_app", "POO_ejercicioC01_HerenciaDeportiva_app\POO_ejercicioC01_HerenciaDeportiva_app.csproj", "{795CC67C-E09D-47A4-ACD1-0854567474A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POO_ejercicioC01_HerenciaDeportiva_app", "POO_ejercicioC01_HerenciaDeportiva_app\POO_ejercicioC01_HerenciaDeportiva_app.csproj", "{795CC67C-E09D-47A4-ACD1-0854567474A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO_ejercicioC01_Equipo", "POO_ejercicioC01_Equipo\POO_ejercicioC01_Equipo.csproj", "{20E13538-AB52-4361-8C2C-09CE55632E70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POO_ejercicioC01_Equipo", "POO_ejercicioC01_Equipo\POO_ejercicioC01_Equipo.csproj", "{20E13538-AB52-4361-8C2C-09CE55632E70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "COLECCIONES_ejercicioI01_NumerosLocos_app", "COLECCIONES_ejercicioI01_NumerosLocos_app\COLECCIONES_ejercicioI01_NumerosLocos_app.csproj", "{36300637-D5F7-417D-B7FE-EA1EF52FAD6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "COLECCIONES_ejercicioI02_NumerosLocosII_app", "COLECCIONES_ejercicioI02_NumerosLocosII_app\COLECCIONES_ejercicioI02_NumerosLocosII_app.csproj", "{888AA38A-84C3-4438-8FF4-846441C6250E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -159,6 +163,14 @@ Global
 		{20E13538-AB52-4361-8C2C-09CE55632E70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20E13538-AB52-4361-8C2C-09CE55632E70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20E13538-AB52-4361-8C2C-09CE55632E70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36300637-D5F7-417D-B7FE-EA1EF52FAD6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36300637-D5F7-417D-B7FE-EA1EF52FAD6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36300637-D5F7-417D-B7FE-EA1EF52FAD6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36300637-D5F7-417D-B7FE-EA1EF52FAD6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{888AA38A-84C3-4438-8FF4-846441C6250E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{888AA38A-84C3-4438-8FF4-846441C6250E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{888AA38A-84C3-4438-8FF4-846441C6250E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{888AA38A-84C3-4438-8FF4-846441C6250E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -33,7 +33,8 @@ public class Equipo
         {
             if (jugador is not null)
             {
-                sb.AppendLine(jugador.MostrarDatos());
+                sb.Append(jugador.MostrarDatos());
+                sb.AppendLine($"Promedio: {jugador.PromedioDeGoles()}");
             }
         }
 

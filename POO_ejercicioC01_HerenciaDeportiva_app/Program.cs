@@ -22,7 +22,7 @@ internal class Program
         Jugador j2 = new Jugador("Juan Jo", 41229345, 110, 68);
         Console.WriteLine(j2.MostrarDatos());
 
-        Jugador j3 = new Jugador("Nosepon Ernombres", 41678864, 110, 36);
+        Jugador j3 = new Jugador("Nosepon Ernom Bres", 41678864, 110, 36);
         Console.WriteLine(j3.MostrarDatos());
 
         Equipo e1 = new Equipo(2, "Almagro");
